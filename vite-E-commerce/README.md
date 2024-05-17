@@ -7,7 +7,7 @@ Interface <Controllers> (These are the TS components of the project. It acts as 
 
 UI_Framework (This folder holds the APP.js component as this is where we integrate our tools and packages that are used. The configuration of these tools and packages are added to this folder)
 
-1. Entities.
+1.Entities.
 The entities/ directory contains TypeScript files defining domain entities such as Product, User, and Order. These entities represent core data structures within the application.
 
 Order.ts
@@ -65,7 +65,7 @@ ProductsReducers.tsx
 ProductsUtils.tsx
                Utility functions for working with product data.
 
-5. UI Framework
+4. UI Framework
 This directory contains files related to UI framework setup, including routing.
 
 router/
