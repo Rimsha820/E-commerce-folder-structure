@@ -10,14 +10,16 @@ UI_Framework (This folder holds the APP.js component as this is where we integra
 1.Entities.
 The entities/ directory contains TypeScript files defining domain entities such as Product, User, and Order. These entities represent core data structures within the application.
 
-Order.ts
 
+Order.ts
 Defines the Order entity, representing an order placed by a user in the e-commerce store.
 Properties: id, user, products, totalPrice, status, createdAt, updatedAt, etc.
+
 
 Product.ts
 Defines the Product entity, representing a product in the e-commerce store.
 Properties: id, name, description, price, category, image, stock, createdAt, updatedAt, etc.
+
 
 User.ts
 Defines the User entity, representing a user of the e-commerce platform.
@@ -28,19 +30,31 @@ This directory contains React components that make up the user interface of your
 components/
 Products/
 
-Product.tsx
-Renders a single product.
-ProductList.tsx
-Renders a list of products.
-Content/
 
+Product.tsx
+          Renders a single product.
+
+          
+ProductList.tsx
+          Renders a list of products.
+
+          
+Content/
 UI/
+
+
 ImageContainer.tsx
                 Contains product images.
+
+                
 LinkContainer.tsx
                 Contains product links.
+
+                
 TextBox.tsx
                 Contains text content.
+
+                
 VideoContainer.tsx
                 Contains product videos.
 MainLayout/
@@ -56,12 +70,20 @@ Footer.tsx
 The useCases/ directory contains modules related to managing business logic, particularly focused on products in this structure.
 
 Products/
+
+
 ProductsAPI.tsx
                Provides an API client for fetching product data.
+
+               
 ProductsActions.tsx
                Defines actions for managing product-related state.
+
+               
 ProductsReducers.tsx
                Reducers for handling product-related state changes.
+
+               
 ProductsUtils.tsx
                Utility functions for working with product data.
 
@@ -69,7 +91,11 @@ ProductsUtils.tsx
 This directory contains files related to UI framework setup, including routing.
 
 router/
+
+
 Router.tsx
             Main router configuration component.
+
+            
 RoutesList.tsx
             Contains route configurations.
