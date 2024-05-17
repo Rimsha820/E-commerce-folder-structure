@@ -31,11 +31,11 @@ components/
 Products/
 
 
-Product.tsx
+Product.tsx:
           Renders a single product.
 
           
-ProductList.tsx
+ProductList.tsx:
           Renders a list of products.
 
           
@@ -43,27 +43,27 @@ Content/
 UI/
 
 
-ImageContainer.tsx
+ImageContainer.tsx:
                 Contains product images.
 
                 
-LinkContainer.tsx
+LinkContainer.tsx:
                 Contains product links.
 
                 
-TextBox.tsx
+TextBox.tsx:
                 Contains text content.
 
                 
-VideoContainer.tsx
+VideoContainer.tsx:
                 Contains product videos.
 MainLayout/
 
-Container.tsx
+Container.tsx:
                 Contains the main layout structure.
-Header.tsx
+Header.tsx:
                 Renders the header section.
-Footer.tsx
+Footer.tsx:
                 Renders the footer section.
 
 3. Use Cases.
@@ -72,19 +72,19 @@ The useCases/ directory contains modules related to managing business logic, par
 Products/
 
 
-ProductsAPI.tsx
+ProductsAPI.tsx:
                Provides an API client for fetching product data.
 
                
-ProductsActions.tsx
+ProductsActions.tsx:
                Defines actions for managing product-related state.
 
                
-ProductsReducers.tsx
+ProductsReducers.tsx:
                Reducers for handling product-related state changes.
 
                
-ProductsUtils.tsx
+ProductsUtils.tsx:
                Utility functions for working with product data.
 
 4. UI Framework
@@ -93,9 +93,9 @@ This directory contains files related to UI framework setup, including routing.
 router/
 
 
-Router.tsx
+Router.tsx:
             Main router configuration component.
 
             
-RoutesList.tsx
+RoutesList.tsx:
             Contains route configurations.
